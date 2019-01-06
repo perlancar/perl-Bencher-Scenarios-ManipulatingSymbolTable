@@ -11,6 +11,7 @@ our $scenario = {
     module_startup => 1,
     participants => [
         {module => 'Package::MoreUtil'},
+        {module => 'Package::Util::Lite'},
         {module => 'Package::Stash'},
         {module => 'Package::Stash::PP'},
         {module => 'Package::Stash::XS'},
